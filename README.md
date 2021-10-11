@@ -16,6 +16,13 @@ source build/envsetup.sh
 ```
 <br/>
 
+Download repos:
+```
+mkdir -p .repo/local_manifests
+curl https://raw.githubusercontent.com/daviiid99/Manifest_S_Oneplus_7/Manifest_S/snippets/oneplus.xml > .repo/local_manifests/guacamoleb.xml
+```
+<br/>
+
 Build:
 ```
 lunch lineage_guacamoleb-userdebug
